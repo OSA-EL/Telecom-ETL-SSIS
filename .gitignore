@@ -2,6 +2,7 @@
 .vs/
 *.user
 *.suo
+*.csv
 
 # SSIS build output
 **/bin/

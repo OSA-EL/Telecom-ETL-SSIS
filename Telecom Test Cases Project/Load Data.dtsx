@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="31"
-  DTS:VersionGUID="{15B89CC4-BFBF-4F39-BB9A-645A964A457A}">
+  DTS:VersionBuild="33"
+  DTS:VersionGUID="{D37579EA-B4CE-470B-8D96-D3EE95F4C963}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1461,6 +1461,10 @@ where [refTable].[imsi] = ?</property>
                       dataType="str"
                       length="500"
                       name="source_file" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLEDB DEST Error Destination Outputs.Inputs[OLE DB Destination Input].ExternalColumns[audit_id]"
+                      dataType="i4"
+                      name="audit_id" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
