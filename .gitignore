@@ -1,0 +1,15 @@
+# Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# SSIS build output
+**/bin/
+**/obj/
+
+# Compiled deployment package (optional — remove this line if you want to commit the .ispac)
+# *.ispac
+
+# Windows OS artifacts
+Thumbs.db
+desktop.ini
